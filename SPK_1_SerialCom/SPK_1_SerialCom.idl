@@ -1,0 +1,29 @@
+// SPK_1_SerialCom.idl : type library source for SPK_1_SerialCom.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (SPK_1_SerialCom.tlb).
+
+[ uuid(C8967781-D97E-4B39-AF91-8C95FE6775A3), version(1.0) ]
+library SPK_1_SerialCom
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CSPK_1_SerialComDoc
+	
+	[ uuid(8C40C9C0-1E15-4B1A-B158-61F9D3C2F369) ]
+	dispinterface ISPK_1_SerialCom
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CSPK_1_SerialComDoc
+	
+	[ uuid(220D4446-60C3-4481-881A-06C32B40CF0B) ]
+	coclass SPK_1_SerialCom
+	{
+		[default] dispinterface ISPK_1_SerialCom;
+	};
+};

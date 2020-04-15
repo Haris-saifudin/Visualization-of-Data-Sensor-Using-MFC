@@ -1,0 +1,17 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\SPK_1_SerialCom.Application = SPK_1_SerialCom Application
+
+
+HKEY_CLASSES_ROOT\SPK_1_SerialCom.Application\CLSID = {220D4446-60C3-4481-881A-06C32B40CF0B}
+
+HKEY_CLASSES_ROOT\CLSID\{220D4446-60C3-4481-881A-06C32B40CF0B} = SPK_1_SerialCom Application
+HKEY_CLASSES_ROOT\CLSID\{220D4446-60C3-4481-881A-06C32B40CF0B}\ProgId = SPK_1_SerialCom.Application
+
+
+HKEY_CLASSES_ROOT\CLSID\{220D4446-60C3-4481-881A-06C32B40CF0B}\LocalServer32 = SPK_1_SerialCom.EXE
